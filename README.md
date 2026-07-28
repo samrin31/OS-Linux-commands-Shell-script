@@ -100,30 +100,30 @@ cat < newfile
 Hello world
 hello world
 ^d
-````
+```
 cat > newfile 
 Hello world
 hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+ ![cut-f3](./op-img/cmp-op.png)
 
 
 grep hello newfile 
 ## OUTPUT
-
+ ![cut-f4](./op-img/cmp-op.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+ ![cut-f5](./op-img/cmp-op.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+ ![cut-f6](./op-img/cmp-op.png)
 
 
 
