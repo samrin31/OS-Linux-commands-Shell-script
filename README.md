@@ -82,18 +82,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+ ![cut-c13](./op-img/cmp-op.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+ ![cut-f1](./op-img/cmp-op.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+ ![cut-f2](./op-img/cmp-op.png)
 
 cat < newfile 
 ```
