@@ -140,7 +140,7 @@ grep -w -n world newfile
 ## OUTPUT
  ![cut-f9](./op-img/grep-R.png)
 
- 
+
 cat < newfile 
 ```
 Hello world
@@ -162,60 +162,60 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![cut](./op-img/egrep-w.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep-w(H|h).png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep[a-z].png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep%20hello.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep%20world.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep%20World.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep(W|w).png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep[1-9].png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep%20linuxworld.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+ ![cut](./op-img/egrep%20linuxWorld.png)
 
 egrep l{2} newfile
 ## OUTPUT
-
+ ![cut](./op-img/egrep(2).png)
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+ ![cut](./op-img/egrep(1,2).png)
 
 cat > file23
 ```
