@@ -59,7 +59,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
- ![diffile](./op-img/cmp-op.png)
+ ![diffile](./op-img/difffilename.png)
 
 #Filters
 
@@ -82,18 +82,18 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
- ![cut-c13](./op-img/cmp-op.png)
+ ![cut-c13](./op-img/cut-c13.png)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
- ![cut-f1](./op-img/cmp-op.png)
+ ![cut-f1](./op-img/cut-f1.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
- ![cut-f2](./op-img/cmp-op.png)
+ ![cut-f2](./op-img/cut-f2.png)
 
 cat < newfile 
 ```
@@ -107,41 +107,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
- ![cut-f3](./op-img/cmp-op.png)
+ ![cut-f3](./op-img/grepH.png)
 
 
 grep hello newfile 
 ## OUTPUT
- ![cut-f4](./op-img/cmp-op.png)
+ ![cut-f4](./op-img/greph.png)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
- ![cut-f5](./op-img/cmp-op.png)
+ ![cut-f5](./op-img/grep-v.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
- ![cut-f6](./op-img/cmp-op.png)
+ ![cut-f6](./op-img/grep-%20-i.png)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
-
+ ![cut-f7](./op-img/grep-i-c.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
+ ![cut-f8](./op-img/grep-w.png)
 
 grep -w -n world newfile   
 ## OUTPUT
+ ![cut-f9](./op-img/grep-R.png)
 
-
+ 
 cat < newfile 
 ```
 Hello world
