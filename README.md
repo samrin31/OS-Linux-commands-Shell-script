@@ -233,76 +233,77 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed%203p.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed%20$p.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed%20s.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+ ![cut](./op-img/sed%202s.png)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed%20tom.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed1,5.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed%202joe.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+ ![cut](./op-img/sedtom\joe.png)
 
 
 seq 10 
 ## OUTPUT
-
+ ![cut](./op-img/seq%2010.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+ ![cut](./op-img/sed%204,6.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+ ![cut](./op-img/sed2,4.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+ ![cut](./op-img/sed%202a.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+ ![cut](./op-img/sed%202i.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+ ![cut](./op-img/sed%202,9c.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+ ![cut](./op-img/sed2,4.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
