@@ -320,7 +320,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+ ![cut](./op-img/sort%20.png)
 
 cat > file22
 ```
@@ -333,7 +333,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+ ![cut](./op-img/uniq.png)
 
 
 #Using tr command
