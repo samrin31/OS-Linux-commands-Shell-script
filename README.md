@@ -679,6 +679,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+ ![cut](./op-img/ifnested.sh.png)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
