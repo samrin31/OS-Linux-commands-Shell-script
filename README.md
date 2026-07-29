@@ -839,7 +839,7 @@ $ chmod 755 forin1.sh
 ## OUTPUT
 ![cut](./op-img/screen%201.png)
 cat forinfile.sh
-bash
+```bash
 #!/bin/bash
 # reading values from a file
 file="cities"
@@ -847,8 +847,8 @@ for state in `cat $file`
 do
 echo "Visit beautiful $file“
 done
-~~~
-## ou
+```
+## OUTPUT
 $ chmod 777 forinfile.sh
 $ cat cities
 Hyderabad
