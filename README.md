@@ -890,6 +890,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+ ![cut](./op-img/screen%205.png)
 
 cat fornested1.sh 
 ```bash
