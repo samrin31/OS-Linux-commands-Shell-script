@@ -503,7 +503,8 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
+ ![cut](./op-img/screen%201.png)
 
 
 
@@ -725,7 +726,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
  ![cut](./op-img/ifcompound.png)
- 
+
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -783,7 +784,7 @@ for test in Alabama Alaska Arizona Arkansas California Colorado
 do
 echo The next state is $test
 done
- ```
+```
  
 $ chmod 755 forin1.sh
  
@@ -836,8 +837,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
-cat forinfile.sh 
-```bash
+![cut](./op-img/screen%201.png)
+cat forinfile.sh
+bash
 #!/bin/bash
 # reading values from a file
 file="cities"
@@ -845,7 +847,8 @@ for state in `cat $file`
 do
 echo "Visit beautiful $file“
 done
-```
+~~~
+## ou
 $ chmod 777 forinfile.sh
 $ cat cities
 Hyderabad
