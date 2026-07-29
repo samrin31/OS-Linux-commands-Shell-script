@@ -926,6 +926,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+ ![cut](./op-img/screen%207.png)
 
 $ chmod 755 forbreak.sh
  
