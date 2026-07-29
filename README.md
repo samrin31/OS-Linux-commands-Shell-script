@@ -909,7 +909,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+ ![cut](./op-img/screen%206.png)
  
 cat forbreak.sh 
 ```bash
