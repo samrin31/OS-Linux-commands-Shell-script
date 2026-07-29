@@ -966,7 +966,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+ ![cut](./op-img/screen%209.png)
 
  cat exread1.sh
 ```bash
