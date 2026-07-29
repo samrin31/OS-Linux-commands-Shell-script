@@ -629,6 +629,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+ ![cut](./op-img/iftest.png)
 
 # check if a file
 cat > ifnested.sh 
