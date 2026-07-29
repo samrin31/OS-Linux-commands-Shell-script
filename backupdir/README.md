@@ -340,7 +340,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
- ![cut](./op-img/tr%20low%20up.png)
+
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -356,18 +356,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
- ![cut](./op-img/cat%20tr%20-s.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
- ![cut](./op-img/cat%20tr%20-s.png)
+
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
- ![cut](./op-img/tar%20backup.png)
+
 
 mkdir backupdir
  
@@ -377,21 +377,19 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
- ![cut](./op-img/mmct.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
- ![cut](./op-img/tar%20-xvf.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![cut](./op-img/gzip.png)
-
+ 
 gunzip backup.tar.gz
 ## OUTPUT
- ![cut](./op-img/gunzip.png)
+
  
 # Shell Script
 ```
