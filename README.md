@@ -849,6 +849,7 @@ echo "Visit beautiful $file“
 done
 ```
 ## OUTPUT
+ ![cut](./op-img/screen%202.png)
 $ chmod 777 forinfile.sh
 $ cat cities
 Hyderabad
@@ -860,6 +861,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+ ![cut](./op-img/screen%203.png)
 
 
 cat forctype.sh 
