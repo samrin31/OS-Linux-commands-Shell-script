@@ -952,7 +952,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+  ![cut](./op-img/screen%208.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
