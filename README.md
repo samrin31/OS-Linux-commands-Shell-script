@@ -978,6 +978,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+ ![cut](./op-img/screen%2010.png)
 
 
 
