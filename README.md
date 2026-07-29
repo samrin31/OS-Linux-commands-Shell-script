@@ -1019,6 +1019,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
  ![cut](./op-img/shot2.png)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1036,6 +1037,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+ ![cut](./op-img/shot3.png)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1049,6 +1052,7 @@ done
 set +x
 ```
 ## OUTPUT
+ ![cut](./op-img/shot4.png)
  ./argshift.sh 1 2 3
  
  
@@ -1081,7 +1085,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![cut](./op-img/shot5.png)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1108,6 +1113,7 @@ else
 fi
 ```
 ## OUTPUT 
+ ![cut](./op-img/shot%206.png)
 
 
 # RESULT:
