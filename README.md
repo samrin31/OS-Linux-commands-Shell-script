@@ -1000,6 +1000,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+ ![cut](./op-img/shot%201.png)
  ./funcex.sh 
 
  
