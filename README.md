@@ -872,10 +872,11 @@ for (( i=1; i <= 5; i++ ))
 do
 echo "The value of i is $i"
 done
-````
+```
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+ ![cut](./op-img/screen%204.png)
 
 cat forctype1.sh 
 ```bash
