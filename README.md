@@ -1018,6 +1018,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+ ![cut](./op-img/shot2.png)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
